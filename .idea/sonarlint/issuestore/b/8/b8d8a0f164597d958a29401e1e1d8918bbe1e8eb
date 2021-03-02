@@ -1,0 +1,62 @@
+
+7
+java:S3010"!Remove this assignment of "spol".(À¯ßà
+K
+java:S2209
+"5Change this instance-reference to a static reference.(óÈÔ´
+K
+java:S2209"5Change this instance-reference to a static reference.(À¯ßà
+P
+java:S2209:"5Change this instance-reference to a static reference.(×ûÿÿÿÿÿ
+L
+java:S26962"6Make the enclosing method "static" or remove this set.(óÈÔ´
+9
+java:S3010
+"#Remove this assignment of "visina".(óÈÔ´
+Q
+java:S2696:"6Make the enclosing method "static" or remove this set.(×ûÿÿÿÿÿ
+:
+java:S3010	"$Remove this assignment of "lozinka".(­•Á°
+@
+java:S3010"*Remove this assignment of "ciljanaTezina".(âíßœ
+E
+java:S3010"#Remove this assignment of "tezina".(×ûÿÿÿÿÿ8á•ë¿õ.
+:
+java:S1659"$Declare "tezina" on a separate line.(ÜóËÂ
+P
+java:S2209"5Change this instance-reference to a static reference.(àØÍÑøÿÿÿÿ
+?
+java:S1659""Declare "spol" on a separate line.(ÜóËÂ8á•ë¿õ.
+W
+java:S2209""5Change this instance-reference to a static reference.(àØÍÑøÿÿÿÿ8á•ë¿õ.
+R
+java:S22092"5Change this instance-reference to a static reference.(óÈÔ´8á•ë¿õ.
+;
+java:S3010" Remove this assignment of "ime".(àØÍÑøÿÿÿÿ
+K
+java:S2209	"5Change this instance-reference to a static reference.(­•Á°
+Q
+java:S2696""6Make the enclosing method "static" or remove this set.(àØÍÑøÿÿÿÿ
+;
+java:S1659"%Declare "lozinka" on a separate line.(ÜóËÂ
+K
+java:S2209B"5Change this instance-reference to a static reference.(âíßœ
+:
+java:S1659"$Declare "visina" on a separate line.(ÜóËÂ
+L
+java:S2696*"6Make the enclosing method "static" or remove this set.(­•Á°
+L
+java:S2696B"6Make the enclosing method "static" or remove this set.(âíßœ
+K
+java:S2209"5Change this instance-reference to a static reference.(âíßœ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÓÀùı
+P
+java:S2209"5Change this instance-reference to a static reference.(×ûÿÿÿÿÿ
+H
+java:S1659"+Declare "ciljanaTezina" on a separate line.(ÜóËÂ8á•ë¿õ.
+R
+java:S2209J"5Change this instance-reference to a static reference.(À¯ßà8á•ë¿õ.
+L
+java:S2696J"6Make the enclosing method "static" or remove this set.(À¯ßà
+K
+java:S2209*"5Change this instance-reference to a static reference.(­•Á°

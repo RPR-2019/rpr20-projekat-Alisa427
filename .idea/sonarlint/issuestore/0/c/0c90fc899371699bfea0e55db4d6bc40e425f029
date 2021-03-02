@@ -1,0 +1,37 @@
+
+N
+java:S1659",Declare "imeIzmjenaUpit" on a separate line.(Òïùøÿÿÿÿ8à•ë¿õ.
+T
+java:S1068"9Remove this unused "izmijeniKorisnikaUpit" private field.(Òïùøÿÿÿÿ
+H
+java:S1068"2Remove this unused "trenutnaVjezba" private field.(ìø§Ó
+D
+java:S21159")Add password protection to this database.(–Æƒƒüÿÿÿÿ
+]
+java:S2259G"BA "NullPointerException" could be thrown; "conn" is nullable here.(ìï‡Àûÿÿÿÿ
+g
+java:S2095A"EUse try-with-resources or close this "Scanner" in a "finally" clause.(Ÿ¤’şıÿÿÿÿ8à•ë¿õ.
+>
+java:S1643D"Use a StringBuilder instead.(¥…ˆÇşÿÿÿÿ8à•ë¿õ.
+O
+java:S1068"4Remove this unused "dajKorisnikaUpit" private field.(Òïùøÿÿÿÿ
+U
+java:S1874""3Remove this use of "newInstance"; it is deprecated.(œõêøÿÿÿÿ8à•ë¿õ.
+i
+java:S2095:"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìï‡Àûÿÿÿÿ8à•ë¿õ.
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÓÀùı8à•ë¿õ.
+Z
+java:S2147'"DCombine this catch with the one at line 35, which has the same body.(ıàÑÎ
+D
+java:S2115.")Add password protection to this database.(–Æƒƒüÿÿÿÿ
+i
+java:S2095G"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìï‡Àûÿÿÿÿ8à•ë¿õ.
+P
+java:S1141F"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+V	java:S125/"<This block of commented-out lines of code should be removed.(«Ü¿Èúÿÿÿÿ
+U
+java:S1659"3Declare "izmijeniKorisnikaUpit" on a separate line.(Òïùøÿÿÿÿ8à•ë¿õ.
+M
+java:S1068"2Remove this unused "imeIzmjenaUpit" private field.(Òïùøÿÿÿÿ
+Z
+java:S2147%"DCombine this catch with the one at line 35, which has the same body.(Å¡ß

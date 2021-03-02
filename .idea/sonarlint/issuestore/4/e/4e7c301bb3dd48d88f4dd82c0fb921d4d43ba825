@@ -1,0 +1,17 @@
+
+h	java:S100N"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Ü‚×ûÿÿÿÿ
+R
+java:S1854%"5Remove this useless assignment to local variable "k".(¾‚¦—8â•ë¿õ.
+g	java:S116"RRename this field "spol_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â¬¹
+k	java:S116"QRename this field "ime_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦âªêúÿÿÿÿ
+<
+java:S1481%"&Remove this unused "k" local variable.(¾‚¦—
+h	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùøøÿÿÿÿ
+M
+java:S1172$"2Remove this unused method parameter "actionEvent".(ùøøÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÓÀùı
+M
+java:S1172N"2Remove this unused method parameter "actionEvent".(¥Ü‚×ûÿÿÿÿ
+]	java:S1254"<This block of commented-out lines of code should be removed.(áÂÙÿÿÿÿÿ8×¡°¨ş.
+N
+java:S1068",Remove this unused "korisnik" private field.(›ìĞäşÿÿÿÿ8×¡°¨ş.

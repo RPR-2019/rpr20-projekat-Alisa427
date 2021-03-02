@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="testPackage.VjezbeZeneController">
+    <bottom>
+        <ButtonBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <buttons>
+                <Button mnemonicParsing="false" onAction="#nazadAction" text="Nazad" />
+            </buttons>
+        </ButtonBar>
+    </bottom>
+    <padding>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+    </padding>
+    <right>
+        <GridPane hgap="5.0" vgap="5.0" BorderPane.alignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="404.7999633789062" minWidth="10.0" prefWidth="389.39996337890625" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="253.199951171875" minWidth="10.0" prefWidth="176.60003662109375" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="38.59998168945313" minHeight="10.0" prefHeight="31.99998779296874" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="56.00001220703126" minHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="50.00000610351563" minHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Label fx:id="label_ID" prefHeight="62.0" prefWidth="399.0" text="Label" GridPane.rowSpan="2" />
+                <ListView fx:id="lista_ID" onMouseClicked="#listaAkcija" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2" GridPane.rowSpan="2147483647" />
+                <Button fx:id="stomak_ID" mnemonicParsing="false" onAction="#stomakAction" prefHeight="26.0" prefWidth="211.0" text="Vježbe za stomak" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <VBox alignment="CENTER" spacing="0.5" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                    <children>
+                        <ComboBox fx:id="rukeCombo_ID" onAction="#rukeAction" prefHeight="26.0" prefWidth="196.0" promptText="            Vježbe za ruke" />
+                    </children>
+                </VBox>
+                <Button fx:id="ledja_ID" mnemonicParsing="false" onAction="#ledjaAction" prefHeight="26.0" prefWidth="233.0" text="Vježbe za leđa" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                <Button fx:id="prsa_ID" mnemonicParsing="false" onAction="#prsaAction" prefHeight="26.0" prefWidth="213.0" text="Vježbe za prsa" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                <Pane prefHeight="90.0" prefWidth="177.0" GridPane.columnIndex="1" GridPane.rowSpan="2">
+                    <children>
+                        <ImageView fitHeight="101.0" fitWidth="144.0" layoutX="38.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@/image/muskiLogo.jpg" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+                <VBox alignment="CENTER" spacing="0.5" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                    <children>
+                        <ComboBox fx:id="nogeCombo_ID" onAction="#nogeAction" prefHeight="26.0" prefWidth="191.0" promptText="            Vježbe za noge" />
+                    </children>
+                </VBox>
+            </children>
+            <BorderPane.margin>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </BorderPane.margin>
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+        </GridPane>
+    </right>
+</BorderPane>
